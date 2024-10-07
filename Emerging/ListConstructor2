@@ -1,0 +1,6 @@
+public class Graph{
+  private HashMap<Integer, LinkedList<Edge>> adjacencyList;
+  public Graph() {
+      adjacencyList = new HashMap<>();
+  }
+}
